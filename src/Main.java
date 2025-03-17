@@ -186,6 +186,18 @@ public class Main {
         System.out.println("My Phone Number is : " + (phoneNumber));
 
 
+        //You can combine Strings
+        System.out.println("My name is: " + (name) + " And I love " + (car) + " That has just been Introduced In " + (country));
+        System.out.println("The Year of Manufacture For The Car is " + (year) + " And The Car is a: " + (car) + " Brought in " + (month) + "rd of March");
+
+        if(!isLoggedIn){
+            System.out.println("Welcome! " + (name) + " Your email is " + (email));
+        }
+        else{
+            System.out.println("Please Login using your phone number: " + (phoneNumber));
+        }
+
+
 
 
 

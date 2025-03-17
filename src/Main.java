@@ -190,12 +190,25 @@ public class Main {
         System.out.println("My name is: " + (name) + " And I love " + (car) + " That has just been Introduced In " + (country));
         System.out.println("The Year of Manufacture For The Car is " + (year) + " And The Car is a: " + (car) + " Brought in " + (month) + "rd of March");
 
+        //Enhanced string concatenation with dynamic data and conditional login message.
         if(!isLoggedIn){
             System.out.println("Welcome! " + (name) + " Your email is " + (email));
         }
         else{
             System.out.println("Please Login using your phone number: " + (phoneNumber));
         }
+
+
+        //String literals
+
+        String county = "Nairobi County";
+        String laptop = "Lenovo X1 Carbon";
+        String phone = "Samsung Galaxy S25";
+        String school = "Eldohub Academy";
+
+
+        System.out.println("The location of: " + (school) + " Is in: " + (county));
+        System.out.println("Most of The Students There Use either a : " + (laptop) + " Or a " + (phone));
 
 
 

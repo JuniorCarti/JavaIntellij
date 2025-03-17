@@ -1,3 +1,5 @@
+
+import java.util.Scanner; //Import Scanner Class
 // The main class where the program starts
 public class Main {
     public static void main(String[] args) {
@@ -32,13 +34,13 @@ public class Main {
 
         //1. Integer Data Types
 
-        int age = 26;
+       // int age = 26;
         int year = 2025;
         int month = 3;
         int temp = 42;
         int height = 21;
 
-        System.out.println(age);
+        //System.out.println(age);
         System.out.println(year);
         System.out.println(month);
         System.out.println(temp);
@@ -209,6 +211,20 @@ public class Main {
 
         System.out.println("The location of: " + (school) + " Is in: " + (county));
         System.out.println("Most of The Students There Use either a : " + (laptop) + " Or a " + (phone));
+
+        //User Input In Java
+        //User input refers to data entered by the user while the program is running.
+        //Java provides the Scanner class to handle input from the keyboard.
+        //Using Scanner to Get User Input
+
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter your teachers name: ");
+        String teacher = scanner.nextLine();
+        int age = scanner.nextInt();
+        System.out.println("Hello Mr " + (teacher) + " Glad To have you with us!");
+        System.out.println(("Your Age is: " + (age) + "Years Old"));
+        scanner.close();
 
 
 

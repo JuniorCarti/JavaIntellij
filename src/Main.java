@@ -150,6 +150,44 @@ public class Main {
         // Assignment - Declare five boolean variables to represent real-life conditions:
 
 
+        //4. Float data types
+        //The float data type in Java is used to store decimal (floating-point) numbers
+        // with single precision (32-bit).
+
+        //declaring float variables
+
+        float distance = 155.5f;
+
+        System.out.println("The Distance From Nairobi to Kisumu is: " + (distance) + "Km");
+
+        //key difference between float and double
+        //float is 4bytes, double is 8bytes
+
+
+        //Reference/Non-Primitive Data Types
+        //Strings, Arrays And Objects
+
+        String name = "Ridge Junior";
+        String car = "Mercedes Benz-Wagon";
+        String country = "Kenya";
+        String favouriteFood = "Pilau";
+        String email = "ridgejunior204@gmail.com";
+        String phoneNumber = "0113245740";
+
+        System.out.println(name);
+        System.out.println(country);
+        System.out.println(favouriteFood);
+        //String concatenation
+        System.out.println("Hello! " + (name));
+        System.out.println("The Price of: " + (car) + " is $78888");
+        System.out.println("My Country is: " + (country) + " And I Love My Country");
+        System.out.println("My Favourite Food is: " + (favouriteFood));
+        System.out.println("Your Login Email Is: " + (email));
+        System.out.println("My Phone Number is : " + (phoneNumber));
+
+
+
+
 
     }
 }

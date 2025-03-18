@@ -4,7 +4,7 @@ public class AreaOfRectangle {
 
         //Calculate the area of a rectangle
         double width = 0;
-        double height = 0;
+        double length = 0;
         double area = 0;
 
         Scanner scanner = new Scanner(System.in);
@@ -12,10 +12,10 @@ public class AreaOfRectangle {
         System.out.println("Enter width: ");
         width = scanner.nextDouble();
 
-        System.out.println("Enter height: ");
-        height = scanner.nextDouble();
+        System.out.println("Enter length: ");
+        length = scanner.nextDouble();
 
-        area = width * height;
+        area = width * length;
 
         System.out.println("The Area is: " + (area) + "cm");
 
